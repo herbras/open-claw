@@ -1,7 +1,7 @@
 # Setup Lengkap OpenClaw — Contoh Konfigurasi
 
 > Dokumentasi lengkap sistem OpenClaw yang sedang berjalan.
-> Terakhir update: 17 Februari 2026
+> Terakhir update: 1 Maret 2026
 
 ---
 
@@ -234,3 +234,42 @@ File-file di workspace Huda yang membentuk personality dan kemampuannya:
 6. **bootstrapMaxChars: 40000** — SOUL.md yang terlalu panjang akan di-truncate. Keep it concise.
 
 7. **Format WhatsApp** — LLM harus output format native WA (`*bold*`, `_italic_`), BUKAN markdown (`**bold**`, `# heading`).
+
+---
+
+## Dokumentasi Lengkap — Daftar Isi
+
+### Setup & Basics
+| # | Topik | File |
+|---|-------|------|
+| 01 | Install Docker di VPS | `01-install-docker-vps.md` |
+| 02 | SOUL.md, USER.md, IDENTITY.md | `02-soul-user-identity.md` |
+| 03 | WhatsApp Group Setup | `03-whatsapp-group-setup.md` |
+| 04 | Multi-Agent Sales | `04-multi-agent-sales.md` |
+| 05 | Installing Plugins | `05-installing-plugins.md` |
+| 06 | Agentic PM Setup | `06-agentic-pm-setup.md` |
+| 07 | Sistem Lengkap (file ini) | `07-sistem-lengkap-openclaw.md` |
+
+### Core Concepts
+| # | Topik | File |
+|---|-------|------|
+| 08 | Sessions & Memory | `08-sessions-memory.md` |
+| 09 | Tools & Built-in Tools | `09-tools-overview.md` |
+
+### Automation & Skills
+| # | Topik | File |
+|---|-------|------|
+| 10 | Hooks & Cron Jobs | `10-hooks-cron.md` |
+| 11 | Skills & Slash Commands | `11-skills-commands.md` |
+
+### Advanced Features
+| # | Topik | File |
+|---|-------|------|
+| 12 | Broadcast Groups | `12-broadcast-groups.md` |
+| 13 | Browser, Media & Nodes | `13-browser-media.md` |
+
+### Architecture & Security
+| # | Topik | File |
+|---|-------|------|
+| 14 | Agent Sandbox & Security | `14-agent-sandbox.md` |
+| 15 | Gateway Architecture | `15-gateway-architecture.md` |
